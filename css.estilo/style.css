@@ -1,5 +1,4 @@
-*{
- 
+*{ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,21 +8,23 @@
 width: 100vw;
 height: 100vh;
 background-color: aqua;
-display: flex;
-
+display: grid;
+grid-template-columns: auto auto auto;
 justify-content: space-between;
-
-
 }
 .cubo{
     display: flex;
-    
     width: 100px;
     height: 100px;
     background-color: brown;
     color: black;
     padding: 20px;
-    line-height: 6opx;
+    line-height: 60px;
     font-size: 60px;
+    
 }
+
+
+
+
 
