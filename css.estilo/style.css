@@ -9,7 +9,7 @@ width: 100vw;
 height: 100vh;
 background-color: aqua;
 display: grid;
-grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;
 justify-content: space-between;
 }
 .cubo{
@@ -23,6 +23,9 @@ justify-content: space-between;
     font-size: 60px;
     
 }
+
+
+
 
 
 
